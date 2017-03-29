@@ -1,0 +1,7 @@
+platform :ios,'7.0'
+
+target '转载日历 -- Demo' do
+
+    pod 'FMDB'
+
+end

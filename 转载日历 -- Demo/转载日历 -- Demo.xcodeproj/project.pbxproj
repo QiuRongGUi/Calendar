@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13242C681E8C07D400E781AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C671E8C07D400E781AC /* main.m */; };
+		13242C6B1E8C07D400E781AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C6A1E8C07D400E781AC /* AppDelegate.m */; };
+		13242C6E1E8C07D400E781AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C6D1E8C07D400E781AC /* ViewController.m */; };
+		13242C711E8C07D400E781AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13242C6F1E8C07D400E781AC /* Main.storyboard */; };
+		13242C731E8C07D400E781AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13242C721E8C07D400E781AC /* Assets.xcassets */; };
+		13242C761E8C07D400E781AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13242C741E8C07D400E781AC /* LaunchScreen.storyboard */; };
+		13242C811E8C07D400E781AC /* ________DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C801E8C07D400E781AC /* ________DemoTests.m */; };
+		13242C8C1E8C07D500E781AC /* ________DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C8B1E8C07D500E781AC /* ________DemoUITests.m */; };
+		13242C9C1E8C080900E781AC /* XFCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C9B1E8C080900E781AC /* XFCalendarTool.m */; };
+		13242C9F1E8C082000E781AC /* XFCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242C9E1E8C082000E781AC /* XFCalendarView.m */; };
+		13242CA21E8C0AC400E781AC /* RiButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13242CA11E8C0AC400E781AC /* RiButton.m */; };
+		7A16D6BB3B3D552AD929711E /* libPods-转载日历 -- Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E34FC564A1D98D3FEAFAEC /* libPods-转载日历 -- Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13242C7D1E8C07D400E781AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13242C5B1E8C07D400E781AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13242C621E8C07D400E781AC;
+			remoteInfo = "转载日历 -- Demo";
+		};
+		13242C881E8C07D500E781AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13242C5B1E8C07D400E781AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13242C621E8C07D400E781AC;
+			remoteInfo = "转载日历 -- Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13242C631E8C07D400E781AC /* 转载日历 -- Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "转载日历 -- Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13242C671E8C07D400E781AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13242C691E8C07D400E781AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13242C6A1E8C07D400E781AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13242C6C1E8C07D400E781AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13242C6D1E8C07D400E781AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13242C701E8C07D400E781AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13242C721E8C07D400E781AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13242C751E8C07D400E781AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13242C771E8C07D400E781AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13242C7C1E8C07D400E781AC /* 转载日历 -- DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转载日历 -- DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13242C801E8C07D400E781AC /* ________DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________DemoTests.m"; sourceTree = "<group>"; };
+		13242C821E8C07D500E781AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13242C871E8C07D500E781AC /* 转载日历 -- DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转载日历 -- DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13242C8B1E8C07D500E781AC /* ________DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________DemoUITests.m"; sourceTree = "<group>"; };
+		13242C8D1E8C07D500E781AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13242C9A1E8C080900E781AC /* XFCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCalendarTool.h; sourceTree = "<group>"; };
+		13242C9B1E8C080900E781AC /* XFCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCalendarTool.m; sourceTree = "<group>"; };
+		13242C9D1E8C082000E781AC /* XFCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCalendarView.h; sourceTree = "<group>"; };
+		13242C9E1E8C082000E781AC /* XFCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCalendarView.m; sourceTree = "<group>"; };
+		13242CA01E8C0AC400E781AC /* RiButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiButton.h; sourceTree = "<group>"; };
+		13242CA11E8C0AC400E781AC /* RiButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiButton.m; sourceTree = "<group>"; };
+		50E34FC564A1D98D3FEAFAEC /* libPods-转载日历 -- Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-转载日历 -- Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60055478735F94841F33B2EB /* Pods-转载日历 -- Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-转载日历 -- Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-转载日历 -- Demo/Pods-转载日历 -- Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		837BDEFD540C8ACFE0D46064 /* Pods-转载日历 -- Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-转载日历 -- Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-转载日历 -- Demo/Pods-转载日历 -- Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13242C601E8C07D400E781AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A16D6BB3B3D552AD929711E /* libPods-转载日历 -- Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13242C791E8C07D400E781AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13242C841E8C07D500E781AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6529BC9ACE6B0AB80EE7B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E34FC564A1D98D3FEAFAEC /* libPods-转载日历 -- Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13242C5A1E8C07D400E781AC = {
+			isa = PBXGroup;
+			children = (
+				13242C651E8C07D400E781AC /* 转载日历 -- Demo */,
+				13242C7F1E8C07D400E781AC /* 转载日历 -- DemoTests */,
+				13242C8A1E8C07D500E781AC /* 转载日历 -- DemoUITests */,
+				13242C641E8C07D400E781AC /* Products */,
+				485F75AA7710B8EC8DB516F1 /* Pods */,
+				0F6529BC9ACE6B0AB80EE7B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13242C641E8C07D400E781AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13242C631E8C07D400E781AC /* 转载日历 -- Demo.app */,
+				13242C7C1E8C07D400E781AC /* 转载日历 -- DemoTests.xctest */,
+				13242C871E8C07D500E781AC /* 转载日历 -- DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13242C651E8C07D400E781AC /* 转载日历 -- Demo */ = {
+			isa = PBXGroup;
+			children = (
+				13242C991E8C07F100E781AC /* Tool */,
+				13242C691E8C07D400E781AC /* AppDelegate.h */,
+				13242C6A1E8C07D400E781AC /* AppDelegate.m */,
+				13242C6C1E8C07D400E781AC /* ViewController.h */,
+				13242C6D1E8C07D400E781AC /* ViewController.m */,
+				13242CA01E8C0AC400E781AC /* RiButton.h */,
+				13242CA11E8C0AC400E781AC /* RiButton.m */,
+				13242C6F1E8C07D400E781AC /* Main.storyboard */,
+				13242C721E8C07D400E781AC /* Assets.xcassets */,
+				13242C741E8C07D400E781AC /* LaunchScreen.storyboard */,
+				13242C771E8C07D400E781AC /* Info.plist */,
+				13242C661E8C07D400E781AC /* Supporting Files */,
+			);
+			path = "转载日历 -- Demo";
+			sourceTree = "<group>";
+		};
+		13242C661E8C07D400E781AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13242C671E8C07D400E781AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13242C7F1E8C07D400E781AC /* 转载日历 -- DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13242C801E8C07D400E781AC /* ________DemoTests.m */,
+				13242C821E8C07D500E781AC /* Info.plist */,
+			);
+			path = "转载日历 -- DemoTests";
+			sourceTree = "<group>";
+		};
+		13242C8A1E8C07D500E781AC /* 转载日历 -- DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13242C8B1E8C07D500E781AC /* ________DemoUITests.m */,
+				13242C8D1E8C07D500E781AC /* Info.plist */,
+			);
+			path = "转载日历 -- DemoUITests";
+			sourceTree = "<group>";
+		};
+		13242C991E8C07F100E781AC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				13242C9A1E8C080900E781AC /* XFCalendarTool.h */,
+				13242C9B1E8C080900E781AC /* XFCalendarTool.m */,
+				13242C9D1E8C082000E781AC /* XFCalendarView.h */,
+				13242C9E1E8C082000E781AC /* XFCalendarView.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		485F75AA7710B8EC8DB516F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60055478735F94841F33B2EB /* Pods-转载日历 -- Demo.debug.xcconfig */,
+				837BDEFD540C8ACFE0D46064 /* Pods-转载日历 -- Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13242C621E8C07D400E781AC /* 转载日历 -- Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13242C901E8C07D500E781AC /* Build configuration list for PBXNativeTarget "转载日历 -- Demo" */;
+			buildPhases = (
+				F859DF29F0E41820C0457F68 /* [CP] Check Pods Manifest.lock */,
+				13242C5F1E8C07D400E781AC /* Sources */,
+				13242C601E8C07D400E781AC /* Frameworks */,
+				13242C611E8C07D400E781AC /* Resources */,
+				4FAD45D8CBF85FA17EBE008B /* [CP] Embed Pods Frameworks */,
+				99A14AE768CCCF823592E6A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "转载日历 -- Demo";
+			productName = "转载日历 -- Demo";
+			productReference = 13242C631E8C07D400E781AC /* 转载日历 -- Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13242C7B1E8C07D400E781AC /* 转载日历 -- DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13242C931E8C07D500E781AC /* Build configuration list for PBXNativeTarget "转载日历 -- DemoTests" */;
+			buildPhases = (
+				13242C781E8C07D400E781AC /* Sources */,
+				13242C791E8C07D400E781AC /* Frameworks */,
+				13242C7A1E8C07D400E781AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13242C7E1E8C07D400E781AC /* PBXTargetDependency */,
+			);
+			name = "转载日历 -- DemoTests";
+			productName = "转载日历 -- DemoTests";
+			productReference = 13242C7C1E8C07D400E781AC /* 转载日历 -- DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13242C861E8C07D500E781AC /* 转载日历 -- DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13242C961E8C07D500E781AC /* Build configuration list for PBXNativeTarget "转载日历 -- DemoUITests" */;
+			buildPhases = (
+				13242C831E8C07D500E781AC /* Sources */,
+				13242C841E8C07D500E781AC /* Frameworks */,
+				13242C851E8C07D500E781AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13242C891E8C07D500E781AC /* PBXTargetDependency */,
+			);
+			name = "转载日历 -- DemoUITests";
+			productName = "转载日历 -- DemoUITests";
+			productReference = 13242C871E8C07D500E781AC /* 转载日历 -- DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13242C5B1E8C07D400E781AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QIUGUI;
+				TargetAttributes = {
+					13242C621E8C07D400E781AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NF2MG7MWCF;
+						ProvisioningStyle = Automatic;
+					};
+					13242C7B1E8C07D400E781AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NF2MG7MWCF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13242C621E8C07D400E781AC;
+					};
+					13242C861E8C07D500E781AC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NF2MG7MWCF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13242C621E8C07D400E781AC;
+					};
+				};
+			};
+			buildConfigurationList = 13242C5E1E8C07D400E781AC /* Build configuration list for PBXProject "转载日历 -- Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13242C5A1E8C07D400E781AC;
+			productRefGroup = 13242C641E8C07D400E781AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13242C621E8C07D400E781AC /* 转载日历 -- Demo */,
+				13242C7B1E8C07D400E781AC /* 转载日历 -- DemoTests */,
+				13242C861E8C07D500E781AC /* 转载日历 -- DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13242C611E8C07D400E781AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13242C761E8C07D400E781AC /* LaunchScreen.storyboard in Resources */,
+				13242C731E8C07D400E781AC /* Assets.xcassets in Resources */,
+				13242C711E8C07D400E781AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13242C7A1E8C07D400E781AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13242C851E8C07D500E781AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FAD45D8CBF85FA17EBE008B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-转载日历 -- Demo/Pods-转载日历 -- Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99A14AE768CCCF823592E6A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-转载日历 -- Demo/Pods-转载日历 -- Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F859DF29F0E41820C0457F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13242C5F1E8C07D400E781AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13242C6E1E8C07D400E781AC /* ViewController.m in Sources */,
+				13242C9C1E8C080900E781AC /* XFCalendarTool.m in Sources */,
+				13242CA21E8C0AC400E781AC /* RiButton.m in Sources */,
+				13242C9F1E8C082000E781AC /* XFCalendarView.m in Sources */,
+				13242C6B1E8C07D400E781AC /* AppDelegate.m in Sources */,
+				13242C681E8C07D400E781AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13242C781E8C07D400E781AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13242C811E8C07D400E781AC /* ________DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13242C831E8C07D500E781AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13242C8C1E8C07D500E781AC /* ________DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13242C7E1E8C07D400E781AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13242C621E8C07D400E781AC /* 转载日历 -- Demo */;
+			targetProxy = 13242C7D1E8C07D400E781AC /* PBXContainerItemProxy */;
+		};
+		13242C891E8C07D500E781AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13242C621E8C07D400E781AC /* 转载日历 -- Demo */;
+			targetProxy = 13242C881E8C07D500E781AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13242C6F1E8C07D400E781AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13242C701E8C07D400E781AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13242C741E8C07D400E781AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13242C751E8C07D400E781AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13242C8E1E8C07D500E781AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13242C8F1E8C07D500E781AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13242C911E8C07D500E781AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60055478735F94841F33B2EB /* Pods-转载日历 -- Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NF2MG7MWCF;
+				INFOPLIST_FILE = "转载日历 -- Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SIIFI.--------Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13242C921E8C07D500E781AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837BDEFD540C8ACFE0D46064 /* Pods-转载日历 -- Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NF2MG7MWCF;
+				INFOPLIST_FILE = "转载日历 -- Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SIIFI.--------Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13242C941E8C07D500E781AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NF2MG7MWCF;
+				INFOPLIST_FILE = "转载日历 -- DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SIIFI.--------DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/转载日历 -- Demo.app/转载日历 -- Demo";
+			};
+			name = Debug;
+		};
+		13242C951E8C07D500E781AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NF2MG7MWCF;
+				INFOPLIST_FILE = "转载日历 -- DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SIIFI.--------DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/转载日历 -- Demo.app/转载日历 -- Demo";
+			};
+			name = Release;
+		};
+		13242C971E8C07D500E781AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NF2MG7MWCF;
+				INFOPLIST_FILE = "转载日历 -- DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SIIFI.--------DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "转载日历 -- Demo";
+			};
+			name = Debug;
+		};
+		13242C981E8C07D500E781AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NF2MG7MWCF;
+				INFOPLIST_FILE = "转载日历 -- DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SIIFI.--------DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "转载日历 -- Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13242C5E1E8C07D400E781AC /* Build configuration list for PBXProject "转载日历 -- Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13242C8E1E8C07D500E781AC /* Debug */,
+				13242C8F1E8C07D500E781AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13242C901E8C07D500E781AC /* Build configuration list for PBXNativeTarget "转载日历 -- Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13242C911E8C07D500E781AC /* Debug */,
+				13242C921E8C07D500E781AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13242C931E8C07D500E781AC /* Build configuration list for PBXNativeTarget "转载日历 -- DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13242C941E8C07D500E781AC /* Debug */,
+				13242C951E8C07D500E781AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13242C961E8C07D500E781AC /* Build configuration list for PBXNativeTarget "转载日历 -- DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13242C971E8C07D500E781AC /* Debug */,
+				13242C981E8C07D500E781AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13242C5B1E8C07D400E781AC /* Project object */;
+}
